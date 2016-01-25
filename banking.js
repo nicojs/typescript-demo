@@ -9,7 +9,7 @@ function money() {
  */
 function sendTo(ibanNumber) {
     function send(iban) {
-        console.log("Sending " + money + " to " + iban);
+        console.log("Sending " + money() + " to " + iban);
 
         if (money > 100) {
             // TODO
