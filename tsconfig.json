@@ -2,8 +2,9 @@
     "compilerOptions": {
         "target": "es5",
         "noImplicitAny": false,
-        "outDir": "built",
+        "outDir": "build",
         "rootDir": "src",
+        "module": "CommonJS",
         "sourceMap": false
     },
     "exclude": [
